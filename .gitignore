@@ -1,1 +1,2 @@
-.rar
+# Ignore rar files
+*.rar
