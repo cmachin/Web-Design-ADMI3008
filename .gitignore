@@ -4,3 +4,10 @@
 
 # Ignore rar files
 *.rar
+
+# Ignore office files
+*.ppt
+*.docx
+
+# Ignore pdf files
+*.pdf
