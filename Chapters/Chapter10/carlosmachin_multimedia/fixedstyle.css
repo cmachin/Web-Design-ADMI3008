@@ -1,0 +1,78 @@
+
+
+
+body {
+	 /*It is a common practice to set the margin and/or padding for the body element
+     to zero, thus clearing out the browser’s default margin and padding setting.*/
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+h2, h4 {
+	font-family: 'Century Gothic', sans-serif; 
+}
+
+h4 {
+	margin-left: 20px;
+}
+
+#wrapper { 
+	width: 1240px; /*will make the design layout remain fixed always */
+	margin-right: auto; /*results in a centered layout */
+	margin-left: auto;  /*results in a centered layout */
+	border: 1px dotted;
+	background-color: #fff4ee;
+}
+
+header { 
+	height: 300px;
+	border: thin solid; 
+	background-color: #FFCAA9;
+}
+
+nav {
+	width: 200px; 
+	height: 700px; 
+	float: left; 
+	margin: 20px 14px 0px 10px; /*top right bottom right margin shortcut*/
+	text-align: center;
+	border: 4px inset; 
+	background-color: #C9F2F4; 
+
+}
+
+article {
+	width: 720px;
+	float: left;
+	margin: 20px 0px 20px 0px; /*top right bottom right margin shortcut*/
+	border: 1px solid;
+	background-color: #fff7ee; 
+}
+
+aside {
+	width: 250px; 
+	height: 700px; 
+	float: right;
+	margin: 20px 8px 0px 0px; /*top right bottom right margin shortcut*/
+	border: 4px inset; 
+	background-color: #C9F2F4;
+}
+
+footer {
+	width: 1240px;
+	height: 75px;
+	clear: both; /* you use “both” because there is a left and right float */
+	background-color: #3e301e;
+	color:  #FFE7D2; /* lighter font color to contrast darker background */
+}
+
+.copy {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+.title {
+ 	text-align: center;
+ }
