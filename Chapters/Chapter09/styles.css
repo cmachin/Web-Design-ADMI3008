@@ -1,9 +1,39 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&display=swap');
 
 body {
 	font-family: arial, sans-serif; 
 	margin-left: 20px;
 }
 
+label.contact {
+	width: 80px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
 
+label.area {
+	margin-left: 2PX;
+	margin-right: 10px;
+}
 
+fieldset {
+	width: 410px;
+	border: solid medium #053972;
+	background-image: url(./textures/bluestone.jpg);
+}
+
+fieldset.area {
+	margin-top: 20px;
+}
+
+legend {
+	border: solid 1px #053972;
+	background-color: #fff;
+	padding:4px;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Ubuntu', sans-serif
+}
