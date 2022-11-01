@@ -9,4 +9,4 @@
 | Chapter13 | FORMATING TEXT                     |
 | Chapter14 | THINKING OUTSIDE THE BOX           |
 | Chapter15 | FLOATING AND POSITIONING           |
-| Chapter16 | Flexbox                            |
+| Chapter16 | FLEXBOX                            |
