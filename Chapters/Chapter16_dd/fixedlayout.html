@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Centered Fixed 3-Column Layout</title>
+
+		<meta content="charset=utf-8" />
+
+		<link href="fixedstyle.css" rel="stylesheet" />
+		<!--Prepared by Carlos A. Machin Hernandez-->
+	</head>
+	<body>
+		<!--this division acts as the main box or container for the whole page, useful for fixed layout designs -->
+		<div id="wrapper">
+			<!--the header area usually contains the banner image or Web site logo, the name of the Web site and/or  main menu -->
+			<header>
+				<h1 class="textoverimage">Using CSS for Multimedia</h1>
+			</header>
+
+			<nav id="menu">
+				<ul id="list">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Tutorials</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+
+			<!-- example of a vertical navigation bar using paragraphs, you can use it as the main menu of the Web site or you can add external links to other Web sites -->
+			<nav id="links">
+				<h2>Learn More</h2>
+				<p>
+					<a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+				</p>
+				<p><a href="https://html.com/html5/" target="_blank">HTML5</a></p>
+				<p>
+					<a
+						href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS"
+						target="_blank"
+						>CSS3</a
+					>
+				</p>
+				<p>
+					<a href="https://www.javascript.com/" target="_blank">JavaScript</a>
+				</p>
+				<p>
+					<a
+						href="https://blog.hubspot.com/marketing/best-website-designs-list"
+						target="_blank"
+						>Good Website Designs</a
+					>
+				</p>
+			</nav>
+
+			<!-- this article section can be used as the main component of the page, it can include text, images, and multimedia elements. you can add more sections inside if needed -->
+			<article>
+				<h2 class="title">HTML5, CSS and JavaScript</h2>
+
+				<h4>Author: Carlos A. Machin Hernandez</h4>
+
+				<iframe
+					width="460"
+					height="280"
+					src="https://www.youtube.com/embed/gT0Lh1eYk78"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+
+				<p class="copy">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+					commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+					et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+					felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+					consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+					nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+					venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+					Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Lorem
+					ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+					ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+					magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+					felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+					consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+					nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+					venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+					Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+				</p>
+
+				<p class="copy">
+					Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+					consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+					viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+					varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi
+					vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+					rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+					semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+					blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
+					et ante tincidunt tempus.
+					<video width="320" height="240" controls>
+						<source src="media/html5.mp4" type="video/mp4" />
+					</video>
+				</p>
+
+				<p class="copy">
+					Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+					consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+					viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+					varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi
+					vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+					rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+					semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+					blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
+					et ante tincidunt tempus.
+				</p>
+
+				<p class="copy">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+					commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+					et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+					felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+					consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+					nec, vulputate eget, arcu.
+					<audio controls>
+						<source src="media/html5css3.mp3" type="audio/mp3" />
+					</audio>
+				</p>
+			</article>
+
+			<!--this side panel can be used to show extra information, such as ads, thumbnails, more links, etc. -->
+			<aside>
+				<h2 class="title">Aside</h2>
+				<a href="thumbnails/html5tags.jpg" target="_blank">
+					<img
+						src="thumbnails/html5tags.jpg"
+						class="thumbnail"
+						alt="HTML5 cheat sheet"
+						title="Click to view larger image"
+					/>
+				</a>
+				<br />
+				<a href="thumbnails/html5history.jpg" target="_blank">
+					<img
+						src="thumbnails/html5history.jpg"
+						class="thumbnail"
+						alt="HTML5 
+Timeline"
+						title="Click to view larger image"
+					/>
+				</a>
+			</aside>
+
+			<!--the footer is usually used to show copyright info about the Web site -->
+			<footer>
+				<h2 class="title">
+					Copyright &copy; 2022 Web master: Carlos A. Machin Hernandez
+				</h2>
+			</footer>
+		</div>
+	</body>
+</html>
