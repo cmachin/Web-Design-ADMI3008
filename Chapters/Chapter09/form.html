@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Student Internship & COOP Program</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<!-- Prepared by:	Carlos A. Machin Hernandez -->
+	<h1>Student Internship <br/>& COOP Program</h1>
+
+	<fieldset>
+		<legend>Contact Information</legend>
+		<form action=" " method="post">
+			<p>
+				<label for="name" class="contact">Name:</label>
+				<input size="30" name="name" id="name">
+			</p>
+
+			<p>
+				<label for="email" class="contact">Email: </label>
+				<input size="30" name="email" id="email">
+			</p>	
+			<p>
+				<label for="id" class="contact">Stud ID: </label>
+				<input size="30" name="id" id="id">
+			</p>
+		</form>
+	</fieldset>
+	<fieldset class="area">
+		<legend>Select Your Area(s) of Interest:</legend>
+		<p>
+			<input type="checkbox" name="jobtitle" value="af">
+			<label for="af" class="area">Accounting & Finance</label>
+
+			<input type="checkbox" name="jobtitle" value="ms">
+			<label for="ms" class="area">Marketing & Sales</label>
+		</p>
+		<p>
+			<input type="checkbox" name="is">
+			<label for="is" class="area">Information Systems</label>
+
+			<input type="checkbox" name="jobtitle" value="om">
+			<label for="om" class="area">Operations Management</label>
+		</p>
+		<p>
+			<input type="checkbox" name="jobtitle" value="hr">
+			<label for="hr" class="area">Human Resources</label>
+		</p>
+	</fieldset>
+	<p>
+		Select the type of position you desire:
+		<select name="position">
+			<option>Part-time Internship</option>
+			<option>Full-time Internship</option>
+			<option>Part-time COOP</option>
+			<option>Full-time COOP</option>
+		</select>
+	</p>
+	<p>
+		Are you willing to travel?<br>
+		<label for="yes">Yes</label><input type="radio" name="travel" value="yes">
+		<label for="no">No</label><input type="radio" name="travel" value="no">
+	</p>
+	<p>
+		What is your biggest accomplishment?
+
+	</p>
+	<p>
+		<textarea placeholder="Write your answer here." rows="5" cols="60"></textarea>
+	</p>
+	<label"> Date of submission:</label>
+	<input type="date">
+	<p>
+		<input type="submit" value="Submit the form">
+		<input type="reset" value="Clear">
+	</p>
+</body>
+</html>

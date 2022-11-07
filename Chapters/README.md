@@ -9,4 +9,8 @@
 | Chapter13 | FORMATING TEXT                     |
 | Chapter14 | THINKING OUTSIDE THE BOX           |
 | Chapter15 | FLOATING AND POSITIONING           |
+<<<<<<< HEAD
 | Chapter16 | CSS LAYOUT WITH FLEXBOX            |
+=======
+| Chapter16 | FLEXBOX                            |
+>>>>>>> aa0611f515034868c0c3f0096c7b0d0ac76959e3
