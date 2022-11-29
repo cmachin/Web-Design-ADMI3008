@@ -1,0 +1,174 @@
+﻿/* main.css */
+
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: inherit;
+}
+
+body {font-family: arial;
+	font-size: 100%;
+	margin: 0;
+}
+/* initial dimensions of 1 column design for mobile */
+div#wrapper {
+	min-width: 480px;
+	margin: 0 auto;
+}
+
+header { 
+	background-image: url(grasswithsky.png);
+	background-repeat: repeat-x;
+	position: bottom;
+	height: 158px;
+	width: 100%;
+}
+
+header h1 {
+	font-family: 'Love Ya Like A Sister', georgia;
+	letter-spacing: 4px;
+	font-size: 3em;  /*smaller font size for mobile version */
+	padding-top: .5em;
+	padding-left: 1em;
+}
+ /*menu styles */
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+	font-size: 93%;
+	text-transform: uppercase;
+	flex: 1 1 50%; /*menu items will shrink or expand and will share 50% of space */
+}
+
+nav ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .625em 3.5em; /* equivalent to 10px 15px */
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	background-color: #c4e7ff;
+}
+
+/*main photo styles */
+
+#f1, #f2, #f3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#col1, #col2,#col3   {
+	width: 100%; /*each column will take up the space of one column in this mobile version*/
+	padding: 2em;
+}
+
+p.topic {
+	width: 90%;
+}
+
+footer h3 {
+	font-family: 'Love Ya Like A Sister', georgia;
+	background-color: #94d4ff;
+	padding: .5em 0 .5em .5em;
+	position: bottom;
+}
+
+
+/* responsive design code goes here */
+
+@media screen and (min-width: 960px) {
+	#wrapper {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-areas: 
+		"header header"
+		"nav nav"
+		"col1 col2"
+		"col3 col4"
+		"footer footer";
+	}
+
+	header {
+		grid-area: header;
+	}
+	nav {
+		grid-area: nav;
+	}
+	#col1 {
+		grid-area: col1;
+	}
+	#col2 {
+		grid-area: col2;
+	}
+	#col3 {
+		grid-area: col3;
+	}
+	#col4 {
+		grid-area: col4;
+	}
+	footer {
+		grid-area: footer;
+	}
+	header h1 {
+		font-size: 72px;
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	#wrapper {
+		display: grid;
+		grid-template-rows: auto min-height auto 4em;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-areas:
+		"header header header"
+		"nav nav nav"
+		"col1 col2 col3"
+		"footer footer footer"
+		;
+		justify-content: center;
+		max-width: 1400px;
+	}
+	header {
+		grid-area: header;
+	}
+	nav {
+		grid-area: nav;
+	}
+	#col1 {
+		grid-area: col1;
+	}
+	#col2 {
+		grid-area: col2;
+	}
+	#col3 {
+		grid-area: col3;
+	}
+	#col4 {
+		grid-area: col4;
+	}
+	footer {
+		grid-area: footer;
+	}
+	header h1 {
+		font-size: 72px;
+		margin-top: 0;
+	}
+	nav ul {
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+}
